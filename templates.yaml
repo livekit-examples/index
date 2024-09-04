@@ -1,18 +1,31 @@
 - name: "meet"
   desc: "An open source video conferencing app built on LiveKit Components, LiveKit Cloud, and Next.js"
   url: "https://github.com/livekit-examples/meet"
+  tags:
+    - "nextjs"
+    - "typescript"
+
 
 - name: "multimodal-agent"
   desc: "Agents that can use voice, video, and text as both inputs and outputs"
   url: "https://github.com/rektdeckard/multimodal-assistant"
+  tags:
+    - "typescript"
+    - "python"
 
-- name: "nextjs-livestream"
+
+- name: "livestream"
   desc: "A full-stack streaming app with sub-100ms latency"
   url: "https://github.com/livekit-examples/nextjs-livestream"
+  tags:
+    - "nextjs"
+    - "typescript"
+
 
 - name: "spatial-audio"
   desc: ""
   url: "https://github.com/livekit-examples/spatial-audio"
+
 
 - name: "swift"
   desc: "Example app for LiveKit Swift SDK"
