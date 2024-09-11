@@ -2,15 +2,27 @@
   desc: "An open source video conferencing app built on LiveKit Components, LiveKit Cloud, and Next.js"
   url: "https://github.com/livekit-examples/meet"
   created_at: "2024-09-01T00:00:00Z"
+  is_sandbox: true
   tags:
     - "nextjs"
     - "typescript"
+
+
+- name: "voice-assistant"
+  desc: "A voice assistant that showcasing realtime TTS and STT"
+  url: "https://github.com/livekit-examples/voice-assistant"
+  created_at: "2024-09-11T00:00:00Z"
+  is_sandbox: true
+  tags:
+    - "python"
+    - "agents"
 
 
 - name: "multimodal-assistant"
   desc: "Agents that can use voice, video, and text as both inputs and outputs"
   url: "https://github.com/rektdeckard/multimodal-assistant"
   created_at: "2024-09-04T00:00:00Z"
+  is_sandbox: false
   tags:
     - "typescript"
     - "python"
@@ -20,6 +32,7 @@
   desc: "A full-stack streaming app with sub-100ms latency"
   url: "https://github.com/livekit-examples/nextjs-livestream"
   created_at: "2024-09-01T00:00:00Z"
+  is_sandbox: false
   tags:
     - "nextjs"
     - "typescript"
