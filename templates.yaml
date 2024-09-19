@@ -9,40 +9,32 @@
 
 
 - name: "voice-assistant"
-  desc: "A voice assistant showcasing realtime TTS and STT"
+  desc: "A voice assistant showcasing realtime TTS, LLM, and STT"
   url: "https://github.com/livekit-examples/voice-assistant"
   created_at: "2024-09-11T00:00:00Z"
+  updated_at: "2024-09-19T00:00:00Z"
   is_sandbox: true
   tags:
-    - "python"
     - "agents"
+    - "voice"
 
 
-- name: "python-voice-assistant"
-  desc: "A voice assistant showcasing realtime TTS and STT"
-  url: "https://github.com/rektdeckard/python-voice-agent"
+- name: "mobile-application"
+  desc: "A hosted token server to help you prototype your mobile applications faster"
+  url: ""
   created_at: "2024-09-18T00:00:00Z"
   is_sandbox: true
   tags:
+    - "mobile"
+    - "token-server"
+
+
+- name: "python-voice-agent"
+  desc: "A voice assistant showcasing realtime TTS, LLM, and STT"
+  url: "https://github.com/rektdeckard/python-voice-agent"
+  created_at: "2024-09-18T00:00:00Z"
+  requires: ["voice-assistant"]
+  tags:
     - "python"
     - "agents"
-
-
-- name: "multimodal-assistant"
-  desc: "Agents that can use voice, video, and text as both inputs and outputs"
-  url: "https://github.com/rektdeckard/multimodal-assistant"
-  created_at: "2024-09-04T00:00:00Z"
-  is_sandbox: false
-  tags:
-    - "typescript"
-    - "python"
-
-
-- name: "livestream"
-  desc: "A full-stack streaming app with sub-100ms latency"
-  url: "https://github.com/livekit-examples/nextjs-livestream"
-  created_at: "2024-09-01T00:00:00Z"
-  is_sandbox: false
-  tags:
-    - "nextjs"
-    - "typescript"
+    - "voice"
