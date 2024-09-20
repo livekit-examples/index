@@ -38,3 +38,15 @@
     - "python"
     - "agents"
     - "voice"
+
+
+- name: "node-voice-agent"
+  desc: "A voice assistant showcasing realtime TTS, LLM, and STT"
+  url: "https://github.com/livekit-examples/agents-js-demo"
+  created_at: "2024-09-19T00:00:00Z"
+  requires: ["voice-assistant"]
+  tags:
+    - "nodejs"
+    - "typescript"
+    - "agents"
+    - "voice"
