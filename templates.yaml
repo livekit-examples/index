@@ -2,6 +2,7 @@
   desc: "An open source video conferencing app built on LiveKit Components, LiveKit Cloud, and Next.js"
   url: "https://github.com/livekit-examples/meet"
   created_at: "2024-09-01T00:00:00Z"
+  is_enabled: true
   is_sandbox: true
   tags:
     - "nextjs"
@@ -13,17 +14,19 @@
   url: "https://github.com/livekit-examples/voice-assistant"
   created_at: "2024-09-11T00:00:00Z"
   updated_at: "2024-09-19T00:00:00Z"
+  is_enabled: true
   is_sandbox: true
   tags:
     - "agents"
     - "voice"
 
 
-- name: "mobile-application"
+- name: "token-server"
   desc: "A hosted token server to help you prototype your mobile applications faster"
   url: ""
   created_at: "2024-09-18T00:00:00Z"
-  is_sandbox: true
+  is_enabled: false
+  is_sandbox: false
   tags:
     - "mobile"
     - "token-server"
@@ -31,9 +34,10 @@
 
 - name: "python-voice-agent"
   desc: "A voice assistant showcasing realtime TTS, LLM, and STT"
-  url: "https://github.com/rektdeckard/python-voice-agent"
+  url: "https://github.com/livekit-examples/python-voice-agent"
   created_at: "2024-09-18T00:00:00Z"
   requires: ["voice-assistant"]
+  is_enabled: true
   tags:
     - "python"
     - "agents"
@@ -45,6 +49,7 @@
   url: "https://github.com/livekit-examples/agents-js-demo"
   created_at: "2024-09-19T00:00:00Z"
   requires: ["voice-assistant"]
+  is_enabled: true
   tags:
     - "nodejs"
     - "typescript"
