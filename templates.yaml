@@ -4,6 +4,7 @@
   created_at: "2024-09-01T00:00:00Z"
   is_enabled: true
   is_sandbox: true
+  category: "voice-and-video"
   tags:
     - "nextjs"
     - "typescript"
@@ -16,6 +17,7 @@
   updated_at: "2024-09-19T00:00:00Z"
   is_enabled: true
   is_sandbox: true
+  category: "voice-assistant"
   tags:
     - "agents"
     - "voice"
@@ -23,10 +25,11 @@
 
 - name: "token-server"
   desc: "A hosted token server to help you prototype your mobile applications faster"
-  url: ""
+  url: "https://github.com/livekit-examples/token-server"
   created_at: "2024-09-18T00:00:00Z"
-  is_enabled: false
-  is_sandbox: false
+  is_enabled: true
+  is_sandbox: true
+  category: "server"
   tags:
     - "mobile"
     - "token-server"
@@ -38,6 +41,7 @@
   created_at: "2024-09-18T00:00:00Z"
   requires: ["voice-assistant"]
   is_enabled: true
+  category: "voice-assistant"
   tags:
     - "python"
     - "agents"
@@ -50,8 +54,21 @@
   created_at: "2024-09-19T00:00:00Z"
   requires: ["voice-assistant"]
   is_enabled: true
+  category: "voice-assistant"
   tags:
     - "nodejs"
     - "typescript"
     - "agents"
+    - "voice"
+
+- name: "android-voice-assistant"
+  desc: "A voice assistant showcasing realtime TTS, LLM, and STT"
+  url: "https://github.com/livekit-examples/android-voice-assistant"
+  created_at: "2024-09-12T00:00:00Z"
+  requires: ["token-server"]
+  is_enabled: true
+  category: "voice-assistant"
+  tags:
+    - "android"
+    - "kotlin"
     - "voice"
