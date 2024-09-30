@@ -10,7 +10,7 @@
     - "typescript"
 
 
-- name: "voice-assistant"
+- name: "voice-assistant-frontend"
   desc: "A voice assistant showcasing realtime TTS, LLM, and STT"
   url: "https://github.com/livekit-examples/voice-assistant"
   created_at: "2024-09-11T00:00:00Z"
@@ -27,7 +27,7 @@
   desc: "A hosted token server to help you prototype your mobile applications faster"
   url: "https://github.com/livekit-examples/token-server"
   created_at: "2024-09-18T00:00:00Z"
-  is_enabled: true
+  is_enabled: false
   is_sandbox: true
   category: "server"
   tags:
