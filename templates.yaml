@@ -35,6 +35,36 @@
     - "token-server"
 
 
+- name: "multimodal-agent-python"
+  desc: "A voice assistant using S2S and multimodal capabilities"
+  url: "https://github.com/livekit-examples/multimodal-agent-python"
+  created_at: "2024-09-30T00:00:00Z"
+  requires: ["voice-assistant-frontend"]
+  is_enabled: true
+  is_sandbox: false
+  category: "voice-assistant"
+  tags:
+    - "python"
+    - "agents"
+    - "voice"
+    - "s2s"
+
+
+- name: "multimodal-agent-node"
+  desc: "A voice assistant using S2S and multimodal capabilities"
+  url: "https://github.com/livekit-examples/multimodal-agent-node"
+  created_at: "2024-09-30T00:00:00Z"
+  requires: ["voice-assistant-frontend"]
+  is_enabled: true
+  is_sandbox: false
+  category: "voice-assistant"
+  tags:
+    - "node.js"
+    - "agents"
+    - "voice"
+    - "s2s"
+
+
 - name: "voice-pipeline-agent-python"
   desc: "A voice assistant showcasing realtime TTS, LLM, and STT"
   url: "https://github.com/livekit-examples/voice-pipeline-agent-python"
