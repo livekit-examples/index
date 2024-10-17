@@ -34,7 +34,7 @@ After choosing a template and name for your project, the CLI will execute the fo
 4. Move the directory from `/tmp` to the location you specified
 5. Run the `post_create` task from the `taskfile.yaml` and print any user setup instructions
 
-At this point, you're ready to start developing your application! Some templates work best with others -- for example, an AI agent template may pair well with a voice assistant frontend template. It all depends on what you want to build. The beauty of LiveKit is that the primitives are interchangeable!
+At this point, you're ready to start developing your application. Some templates work best with others – for example, an AI agent template may pair well with a voice assistant frontend template. It all depends on what you want to build. The beauty of LiveKit is that the primitives are interchangeable!
 
 If you need a refresher on the basics, be sure to head to our documentation and read the [Intro to LiveKit](http://docs.livekit.io/home/get-started/intro-to-livekit/).
 
@@ -42,7 +42,7 @@ If you need a refresher on the basics, be sure to head to our documentation and 
 
 ### Repository structure
 
-Your template may be any kind of component, from a front-end for a livestreaming app to a 
+Your template may be any kind of component, from a front-end for a livestreaming app to a helpful AI assistant built with the Agents framework. In order to be accepted as a community template, your repository must adhere to certain contraints:
 
 - The template must be a public git repository, though it does not have to be hosted on GitHub.
 - The repository must include a `.env.example` file at the root, containing stubs for the environment variables that the template requires. The following varaibles are standard, and can be inferred during bootstrap with the LiveKit CLI:
@@ -68,37 +68,37 @@ When you're ready to share your template with the world, you can submit a pull r
         <td>name</td>
         <td><code>string</code></td>
         <td><code>true</code></td>
-        <td>The kebab-case identifier of the template</td>
+        <td>The kebab-case identifier of the template.</td>
     </tr>
     <tr>
         <td>display_name</td>
         <td><code>string</code></td>
         <td><code>true</code></td>
-        <td>The human-readable name of the template</td>
+        <td>The human-readable name of the template.</td>
     </tr>
     <tr>
         <td>desc</td>
         <td><code>string</code></td>
         <td><code>true</code></td>
-        <td>A brief description of the template</td>
+        <td>A brief description of the template.</td>
     </tr>
     <tr>
         <td>url</td>
         <td><code>string</code></td>
         <td><code>true</code></td>
-        <td>The URL of the git repository containing the template</td>
+        <td>The URL of the git repository containing the template.</td>
     </tr>
     <tr>
         <td>image</td>
         <td><code>string</code></td>
         <td><code>false</code></td>
-        <td>The URL of an image to display for the template</td>
+        <td>The URL of an image to display for the template.</td>
     </tr>
     <tr>
         <td>docs</td>
         <td><code>string</code></td>
         <td><code>false</code></td>
-        <td>The URL of the documentation for the template</td>
+        <td>The URL of the documentation for the template.</td>
     </tr>
     <tr>
         <td>requires</td>
@@ -116,13 +116,13 @@ When you're ready to share your template with the world, you can submit a pull r
         <td>created_at</td>
         <td><code>string</code></td>
         <td><code>false</code></td>
-        <td>The date the template was added to the index, in <a href="https://en.wikipedia.org/wiki/ISO_8601">ISO 8601</a> datetime format</td>
+        <td>The date the template was added to the index, in <a href="https://en.wikipedia.org/wiki/ISO_8601">ISO 8601</a> datetime format.</td>
     </tr>
     <tr>
         <td>updated_at</td>
         <td><code>string</code></td>
         <td><code>false</code></td>
-        <td>The date the template was last updated, in <a href="https://en.wikipedia.org/wiki/ISO_8601">ISO 8601</a> datetime format</td>
+        <td>The date the template was last updated, in <a href="https://en.wikipedia.org/wiki/ISO_8601">ISO 8601</a> datetime format.</td>
     </tr>
     <tr>
         <td>is_enabled</td>
