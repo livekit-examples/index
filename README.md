@@ -28,9 +28,9 @@ After choosing a template and name for your project, the CLI will execute the fo
 
 1. Clone the git repository associated with the template to your `/tmp` directory or equivalent
 2. De-git the repository so you don't include the template's history in your project
-3. Copy the `.env.example` file to `.env.local`
-    - Automatically filling in any `LIVEKIT_` environment variables that are recognized
-    - Prompting you to fill in any additional variables that are not recognized, such as required API keys
+3. Copy the `.env.example` file to `.env.local`. This step includes the following:
+    - Automatically updating any `LIVEKIT_*` environment variables that are recognized.
+    - Prompting you for any additional variables that are not recognized, such as required API keys.
 4. Move the directory from `/tmp` to the location you specified
 5. Run the `post_create` task from the `taskfile.yaml` and print any user setup instructions
 
