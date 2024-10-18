@@ -2,6 +2,7 @@
   display_name: "Video conference"
   desc: "An open source video conferencing app built on LiveKit Components, LiveKit Cloud, and Next.js"
   url: "https://github.com/livekit-examples/meet"
+  image: "https://raw.githubusercontent.com/livekit-examples/meet/main/.github/assets/template-graphic.svg"
   created_at: "2024-09-01T00:00:00Z"
   is_enabled: true
   is_sandbox: true
@@ -20,6 +21,7 @@
   display_name: "Voice assistant"
   desc: "A voice assistant showcasing realtime TTS, LLM, and STT"
   url: "https://github.com/livekit-examples/voice-assistant-frontend"
+  image: "https://raw.githubusercontent.com/livekit-examples/voice-assistant-frontend/refs/heads/main/.github/assets/template-graphic.svg"
   created_at: "2024-09-11T00:00:00Z"
   updated_at: "2024-09-19T00:00:00Z"
   is_enabled: true
@@ -39,6 +41,7 @@
   display_name: "Token server"
   desc: "A hosted token server to help you prototype your mobile applications faster"
   url: "https://github.com/livekit-examples/token-server-node"
+  image: "https://raw.githubusercontent.com/livekit-examples/token-server-node/main/.github/assets/template-graphic.svg"
   created_at: "2024-09-18T00:00:00Z"
   is_enabled: false
   is_sandbox: true
