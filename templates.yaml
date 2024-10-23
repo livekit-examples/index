@@ -43,7 +43,7 @@
   url: "https://github.com/livekit-examples/token-server-node"
   image: "https://raw.githubusercontent.com/livekit-examples/token-server-node/main/.github/assets/template-graphic.svg"
   created_at: "2024-09-18T00:00:00Z"
-  is_enabled: false
+  is_enabled: true
   is_sandbox: true
   category: "server"
   tags:
