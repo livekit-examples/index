@@ -117,6 +117,25 @@
     Tools: "Python >=3.9"
     License: "Apache-2.0"
 
+- name: "voice-pipeline-agent-node"
+  display_name: "Node voice pipeline agent"
+  desc: "A voice assistant showcasing realtime TTS, LLM, and STT"
+  url: "https://github.com/livekit-examples/voice-pipeline-agent-node"
+  created_at: "2024-11-11T00:00:00Z"
+  requires: ["voice-assistant-frontend"]
+  is_enabled: true
+  is_sandbox: false
+  category: "voice-assistant"
+  tags:
+    - "node.js"
+    - "agents"
+    - "voice"
+  attrs:
+    Application: "VoiceAI, Agents"
+    Type: "Agent"
+    Tools: "Node.js"
+    License: "Apache-2.0"
+
 
 - name: "android-voice-assistant"
   display_name: "Android voice assistant"
