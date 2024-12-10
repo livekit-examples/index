@@ -16,7 +16,6 @@
     Tools: "Next.js, TypeScript"
     License: "Apache-2.0"
 
-
 - name: "voice-assistant-frontend"
   display_name: "Voice assistant"
   desc: "A voice assistant showcasing realtime TTS, LLM, and STT"
@@ -36,7 +35,6 @@
     Tools: "Next.js, TypeScript"
     License: "Apache-2.0"
 
-
 - name: "token-server"
   display_name: "Token server"
   desc: "A hosted token server to help you prototype your mobile applications faster"
@@ -54,7 +52,6 @@
     Type: "Backend"
     Tools: "Go"
     License: "Apache-2.0"
-
 
 - name: "multimodal-agent-python"
   display_name: "Python multimodal agent"
@@ -76,7 +73,6 @@
     Tools: "Python >=3.9"
     License: "Apache-2.0"
 
-
 - name: "multimodal-agent-node"
   display_name: "Node multimodal agent"
   desc: "A voice assistant using S2S and multimodal capabilities"
@@ -96,7 +92,6 @@
     Type: "Agent"
     Tools: "Node.js"
     License: "Apache-2.0"
-
 
 - name: "voice-pipeline-agent-python"
   display_name: "Python voice pipeline agent"
@@ -136,7 +131,6 @@
     Tools: "Node.js"
     License: "Apache-2.0"
 
-
 - name: "android-voice-assistant"
   display_name: "Android voice assistant"
   desc: "A voice assistant showcasing realtime TTS, LLM, and STT"
@@ -154,4 +148,25 @@
     Application: "VoiceAI, Agents"
     Type: "Mobile app"
     Tools: "Android, Kotlin, Jetpack Compose"
+    License: "Apache-2.0"
+
+- name: "outbound-caller-python"
+  display_name: "Python outbound caller agent"
+  desc: "An agent that makes outbound calls using LiveKit SIP"
+  url: "https://github.com/livekit-examples/outbound-caller-python"
+  created_at: "2024-12-08T00:00:00Z"
+  requires: []
+  is_enabled: true
+  is_sandbox: false
+  category: "voice-assistant"
+  tags:
+    - "python"
+    - "agents"
+    - "voice"
+    - telephony
+    - sip
+  attrs:
+    Application: "VoiceAI, Agents"
+    Type: "Agent"
+    Tools: "Python >=3.9"
     License: "Apache-2.0"
