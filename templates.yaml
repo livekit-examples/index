@@ -35,6 +35,24 @@
     Tools: "Next.js, TypeScript"
     License: "Apache-2.0"
 
+- name: "transcription-frontend"
+  display_name: "Voice transcription"
+  desc: "An application demonstrating realtime speech-to-text"
+  url: "https://github.com/livekit-examples/transcription-frontend"
+  created_at: "2024-12-20T00:00:00Z"
+  updated_at: "2024-12-20T00:00:00Z"
+  is_enabled: true
+  is_sandbox: false
+  category: "voice-assistant"
+  tags:
+    - "agents"
+    - "voice"
+  attrs:
+    application: "Transcription, Agents"
+    type: "Frontend"
+    tools: "Next.js, TypeScript"
+    license: "Apache-2.0"
+
 - name: "token-server"
   display_name: "Token server"
   desc: "A hosted token server to help you prototype your mobile applications faster"
