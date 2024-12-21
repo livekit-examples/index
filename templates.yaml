@@ -168,6 +168,24 @@
     Tools: "Android, Kotlin, Jetpack Compose"
     License: "Apache-2.0"
 
+- name: "voice-assistant-swift"
+  display_name: "Swift voice assistant"
+  desc: "A native voice assistant frontend for iOS, iPadOS, macOS, and visionOS."
+  url: "https://github.com/livekit-examples/voice-assistant-swift"
+  created_at: "2024-12-20T00:00:00Z"
+  requires: ["token-server"]
+  is_enabled: true
+  is_sandbox: false
+  category: "voice-assistant"
+  tags:
+    - "swift"
+    - "voice"
+  attrs:
+    Application: "VoiceAI, Agents"
+    Type: "Mobile app"
+    Tools: "Xcode, Swift, SwiftUI"
+    License: "Apache-2.0"
+
 - name: "outbound-caller-python"
   display_name: "Python outbound caller agent"
   desc: "An agent that makes outbound calls using LiveKit SIP"
