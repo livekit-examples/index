@@ -186,6 +186,24 @@
     Tools: "Xcode, Swift, SwiftUI"
     License: "Apache-2.0"
 
+- name: "voice-assistant-flutter"
+  display_name: "Flutter voice assistant"
+  desc: "A native voice assistant frontend using Flutter"
+  url: "https://github.com/livekit-examples/voice-assistant-flutter"
+  created_at: "2025-02-08T00:00:00Z"
+  requires: ["token-server"]
+  is_enabled: true
+  is_sandbox: false
+  category: "voice-assistant"
+  tags:
+    - "flutter"
+    - "voice"
+  attrs:
+    Application: "VoiceAI, Agents"
+    Type: "Mobile app"
+    Tools: "Flutter"
+    License: "Apache-2.0"
+
 - name: "outbound-caller-python"
   display_name: "Python outbound caller agent"
   desc: "An agent that makes outbound calls using LiveKit SIP"
