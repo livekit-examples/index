@@ -71,6 +71,26 @@
     Tools: "Go"
     License: "Apache-2.0"
 
+- name: "multi-agent-python"
+  display_name: "Python multi-agent workflow"
+  desc: "A team of writing coach agents demonstrating multi-agent workflows"
+  url: "https://github.com/livekit-examples/multi-agent-python"
+  created_at: "2025-04-10T00:00:00Z"
+  requires: ["voice-assistant-frontend"]
+  is_enabled: true
+  is_sandbox: false
+  category: "voice-assistant"
+    tags:
+    - "python"
+    - "agents"
+    - "multi-agent"
+    - "voice"
+  attrs:
+    Application: "VoiceAI, Agents"
+    Type: "Agent"
+    Tools: "Python >=3.9"
+    License: "Apache-2.0"
+
 - name: "multimodal-agent-python"
   display_name: "Python multimodal agent"
   desc: "A voice assistant using S2S and multimodal capabilities"
@@ -79,6 +99,7 @@
   requires: ["voice-assistant-frontend"]
   is_enabled: true
   is_sandbox: false
+  is_hidden: true
   category: "voice-assistant"
   tags:
     - "python"
@@ -119,6 +140,7 @@
   requires: ["voice-assistant-frontend"]
   is_enabled: true
   is_sandbox: false
+  is_hidden: true
   category: "voice-assistant"
   tags:
     - "python"

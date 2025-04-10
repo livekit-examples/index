@@ -136,4 +136,10 @@ When you're ready to share your template with the world, you can submit a pull r
         <td><code>false</code></td>
         <td>Whether the template is a sandbox template. Sandbox templates are designed to be hosted by us directly, and have special considerations. When submitting a template, this should be <code>false</code>. If you're interested in submitting a sandbox template, get in contact with us via <a href="https://join.slack.com/t/livekit-users/shared_invite/zt-28a400kyd-I0mPVUrxcZ5TEayIvmq9mw">Slack</a>, or via GitHub issues here.</td>
     </tr>
+    <tr>
+        <td>is_hidden</td>
+        <td><code>boolean</code></td>
+        <td><code>false</code></td>
+        <td>Whether the template is hidden from the LiveKit CLI. This is useful for templates that are still in development, or are deprecated but still accessible.</td>
+    </tr>
 </table>
