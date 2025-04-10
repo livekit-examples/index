@@ -80,7 +80,7 @@
   is_enabled: true
   is_sandbox: false
   category: "voice-assistant"
-    tags:
+  tags:
     - "python"
     - "agents"
     - "multi-agent"
