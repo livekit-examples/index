@@ -246,3 +246,21 @@
     Type: "Agent"
     Tools: "Python >=3.9"
     License: "Apache-2.0"
+
+- name: "voice-assistant-react-native"
+  display_name: "React-Native voice assistant"
+  desc: "A native voice assistant frontend using React-Native"
+  url: "https://github.com/livekit-examples/voice-assistant-react-native"
+  created_at: "2025-04-17T00:00:00Z"
+  requires: ["token-server"]
+  is_enabled: true
+  is_sandbox: false
+  category: "voice-assistant"
+  tags:
+    - "react-native"
+    - "voice"
+  attrs:
+    Application: "VoiceAI, Agents"
+    Type: "Mobile app"
+    Tools: "React-Native"
+    License: "Apache-2.0"
