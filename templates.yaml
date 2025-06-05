@@ -149,7 +149,6 @@
   is_enabled: true
   is_sandbox: false
   is_hidden: true
-  is_hidden: true
   category: "voice-assistant"
   tags:
     - "python"
@@ -193,7 +192,6 @@
   requires: ["voice-assistant-frontend"]
   is_enabled: true
   is_sandbox: false
-  is_hidden: true
   is_hidden: true
   category: "voice-assistant"
   tags:
