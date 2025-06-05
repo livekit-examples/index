@@ -16,6 +16,7 @@
     Tools: "Next.js, TypeScript"
     License: "Apache-2.0"
 
+
 - name: "voice-assistant-frontend"
   display_name: "Voice assistant"
   desc: "A voice assistant showcasing realtime TTS, LLM, and STT"
@@ -34,6 +35,50 @@
     Type: "Frontend"
     Tools: "Next.js, TypeScript"
     License: "Apache-2.0"
+  inputs:
+    companyName:
+      type: string
+      description: "The name of your company or project"
+      default: "LiveKit"
+    pageTitle:
+      type: string
+      description: "The title of the page"
+      default: "Voice Assistant"
+    pageDescription:
+      type: string
+      description: "A short description of the page for SEO"
+      default: "A voice assistant built with LiveKit"
+    suportsChatInput:
+      type: boolean
+      description: "Enable chat input for the voice assistant"
+      default: false
+    suportsVideoInput:
+      type: boolean
+      description: "Enable video input for the voice assistant"
+      default: false
+    suportsScreenShare:
+      type: boolean
+      description: "Enable screen sharing for the voice assistant"
+      default: false
+    logo:
+      type: string
+      description: "An optional URL or data URI for the logo image"
+    accent:
+      type: string
+      description: "A CSS color to use as the accent color of the app in light mode"
+      default: "#002cf2"
+    logoDark:
+      type: string
+      description: "An optional URL or data URI for the logo image"
+    accentDark:
+      type: string
+      description: "A CSS color to use as the accent color of the app in dark mode"
+      default: "#1fd5f9"
+    startButtonText:
+      type: string
+      description: "Text to display on the start button for the voice assistant"
+      default: "Start call"
+
 
 - name: "transcription-frontend"
   display_name: "Voice transcription"
@@ -43,6 +88,7 @@
   updated_at: "2024-12-20T00:00:00Z"
   is_enabled: true
   is_sandbox: false
+  is_hidden: true
   category: "voice-assistant"
   tags:
     - "agents"
@@ -52,6 +98,7 @@
     type: "Frontend"
     tools: "Next.js, TypeScript"
     license: "Apache-2.0"
+
 
 - name: "token-server"
   display_name: "Token server"
@@ -70,6 +117,7 @@
     Type: "Backend"
     Tools: "Go"
     License: "Apache-2.0"
+
 
 - name: "multi-agent-python"
   display_name: "Python multi-agent workflow"
@@ -91,6 +139,7 @@
     Tools: "Python >=3.9"
     License: "Apache-2.0"
 
+
 - name: "multimodal-agent-python"
   display_name: "Python multimodal agent"
   desc: "A voice assistant using S2S and multimodal capabilities"
@@ -99,6 +148,7 @@
   requires: ["voice-assistant-frontend"]
   is_enabled: true
   is_sandbox: false
+  is_hidden: true
   is_hidden: true
   category: "voice-assistant"
   tags:
@@ -112,6 +162,7 @@
     Tools: "Python >=3.9"
     License: "Apache-2.0"
 
+
 - name: "multimodal-agent-node"
   display_name: "Node multimodal agent"
   desc: "A voice assistant using S2S and multimodal capabilities"
@@ -120,6 +171,7 @@
   requires: ["voice-assistant-frontend"]
   is_enabled: true
   is_sandbox: false
+  is_hidden: true
   category: "voice-assistant"
   tags:
     - "node.js"
@@ -131,6 +183,7 @@
     Type: "Agent"
     Tools: "Node.js"
     License: "Apache-2.0"
+
 
 - name: "voice-pipeline-agent-python"
   display_name: "Python voice pipeline agent"
@@ -141,6 +194,7 @@
   is_enabled: true
   is_sandbox: false
   is_hidden: true
+  is_hidden: true
   category: "voice-assistant"
   tags:
     - "python"
@@ -152,6 +206,7 @@
     Tools: "Python >=3.9"
     License: "Apache-2.0"
 
+
 - name: "voice-pipeline-agent-node"
   display_name: "Node voice pipeline agent"
   desc: "A voice assistant showcasing realtime TTS, LLM, and STT"
@@ -160,6 +215,7 @@
   requires: ["voice-assistant-frontend"]
   is_enabled: true
   is_sandbox: false
+  is_hidden: true
   category: "voice-assistant"
   tags:
     - "node.js"
@@ -170,6 +226,7 @@
     Type: "Agent"
     Tools: "Node.js"
     License: "Apache-2.0"
+
 
 - name: "android-voice-assistant"
   display_name: "Android voice assistant"
@@ -189,6 +246,7 @@
     Type: "Mobile app"
     Tools: "Android, Kotlin, Jetpack Compose"
     License: "Apache-2.0"
+
 
 - name: "voice-assistant-swift"
   display_name: "Swift voice assistant"
@@ -225,6 +283,7 @@
     Type: "Mobile app"
     Tools: "Flutter"
     License: "Apache-2.0"
+
 
 - name: "outbound-caller-python"
   display_name: "Python outbound caller agent"
