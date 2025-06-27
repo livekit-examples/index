@@ -43,11 +43,11 @@
     pageTitle:
       type: string
       description: "The title of the page"
-      default: "Voice Assistant"
+      default: "LiveKit Voice Agent"
     pageDescription:
       type: string
       description: "A short description of the page for SEO"
-      default: "A voice assistant built with LiveKit"
+      default: "A voice agent built with LiveKit"
     supportsChatInput:
       type: boolean
       description: "Enable chat input for the voice assistant"
