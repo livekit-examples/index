@@ -25,7 +25,7 @@
     thumbnail:
       light: "https://raw.githubusercontent.com/livekit-examples/voice-assistant-frontend/refs/heads/main/.github/assets/template-light.webp"
       dark: "https://raw.githubusercontent.com/livekit-examples/voice-assistant-frontend/refs/heads/main/.github/assets/template-dark.webp"
-    screenshots:
+    hero:
       light: "https://raw.githubusercontent.com/livekit-examples/voice-assistant-frontend/refs/heads/main/.github/assets/screenshot-light.webp"
       dark: "https://raw.githubusercontent.com/livekit-examples/voice-assistant-frontend/refs/heads/main/.github/assets/screenshot-dark.webp"
   created_at: "2024-09-11T00:00:00Z"
