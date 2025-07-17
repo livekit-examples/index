@@ -32,7 +32,7 @@
   updated_at: "2024-09-19T00:00:00Z"
   is_enabled: true
   is_sandbox: true
-  is_hidden: true # deprecated in favor of agent-starter-react
+  is_hidden: false
   category: "voice-assistant"
   tags:
     - "agents"
@@ -99,6 +99,7 @@
   updated_at: "2024-09-19T00:00:00Z"
   is_enabled: true
   is_sandbox: true
+  is_hidden: true
   category: "voice-assistant"
   tags:
     - "agents"
