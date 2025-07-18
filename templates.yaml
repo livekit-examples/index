@@ -326,3 +326,45 @@
     Type: "Agent"
     Tools: "Python >=3.9"
     License: "Apache-2.0"
+
+- name: "multimodal-agent-python"
+  display_name: "Python multimodal agent"
+  desc: "A voice assistant using S2S and multimodal capabilities"
+  url: "https://github.com/livekit-examples/multimodal-agent-python"
+  created_at: "2024-09-30T00:00:00Z"
+  requires: ["agent-starter-react", "agent-starter-swift", "agent-starter-android", "agent-starter-flutter", "agent-starter-react-native", "agent-starter-embed"]
+  is_enabled: true
+  is_sandbox: false
+  is_hidden: true
+  category: "voice-assistant"
+  tags:
+    - "python"
+    - "agents"
+    - "voice"
+    - "s2s"
+  attrs:
+    Application: "VoiceAI, Agents"
+    Type: "Agent"
+    Tools: "Python >=3.9"
+    License: "Apache-2.0"
+
+- name: "voice-pipeline-agent-python"
+  display_name: "Python voice pipeline agent"
+  desc: "A voice assistant showcasing realtime TTS, LLM, and STT"
+  url: "https://github.com/livekit-examples/voice-pipeline-agent-python"
+  created_at: "2024-09-18T00:00:00Z"
+  requires: ["agent-starter-react", "agent-starter-swift", "agent-starter-android", "agent-starter-flutter", "agent-starter-react-native", "agent-starter-embed"]
+  is_enabled: true
+  is_sandbox: false
+  is_hidden: true
+  category: "voice-assistant"
+  tags:
+    - "python"
+    - "agents"
+    - "voice"
+  attrs:
+    Application: "VoiceAI, Agents"
+    Type: "Agent"
+    Tools: "Python >=3.9"
+    License: "Apache-2.0"
+    
