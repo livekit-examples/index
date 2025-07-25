@@ -1,15 +1,17 @@
 version: "3"
 
 vars:
-  INDENT: 2
+  INDENT: 4
   REL_PATH: "{{ relPath .USER_WORKING_DIR .ROOT_DIR }}"
   VENV_DIR: "venv"
   PYTHON_MAIN: "main.py"
 
 tasks:
-  hello_world:
+  deploy_agent:
     cmds:
-      - 'echo "Hello, World!"'
+      - echo -e 'To deploy your agent to LiveKit cloud:\r\n'
+      - echo -e '{{ quote .REL_PATH | cat "cd" | indent .INDENT }}\r\n'
+      - echo -e '{{ quote .REL_PATH | cat "lk agent deploy" | indent .INDENT }}\r\n'
 
   post_create_node:
     cmds:
