@@ -22,6 +22,10 @@ tasks:
       - uv sync
       - uv run {{ .PYTHON_MAIN }} download-files
 
+  dev_python_uv:
+    cmds:
+      - uv run {{ .PYTHON_MAIN }} console
+
   help_setup_python_pip:
     cmds:
       - echo 'To setup and run locally:'
@@ -47,6 +51,10 @@ tasks:
         cmd: "powershell {{ .VENV_DIR }}/scripts/activate.ps1"
       - "pip install -r requirements.txt"
 
+  dev_python_pip:
+    cmds:
+      - python3 {{ .PYTHON_MAIN }} console
+
   help_setup_node_pnpm:
     cmds:
       - echo 'To setup and run locally:'
@@ -54,12 +62,16 @@ tasks:
       - echo '{{ indent .INDENT "cd" }} {{ .REL_PATH }}'
       - echo '{{ indent .INDENT "pnpm install" }}'
       - echo '{{ indent .INDENT "pnpm build" }}'
-      - echo '{{ indent .INDENT "pnpm start" }}'
+      - echo '{{ indent .INDENT "pnpm dev" }}'
       - echo ''
 
   install_node_pnpm:
     cmds:
       - pnpm install
+
+  dev_node_pnpm:
+    cmds:
+      - pnpm dev
 
   help_deploy_agent:
     cmds:
