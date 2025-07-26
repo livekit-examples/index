@@ -77,6 +77,6 @@ tasks:
     cmds:
       - echo 'To deploy your agent to LiveKit cloud:'
       - echo ''
-      - echo '{{ indent .INDENT "lk agent deploy" }}'
+      - echo '{{ indent .INDENT "lk agent create" }}'
       - echo ''
 
