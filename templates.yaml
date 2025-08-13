@@ -112,6 +112,80 @@
       description: "Connection button label text"
       default: "Start call"
 
+- name: "agent-starter-react"
+  display_name: "Next.js Voice Agent"
+  desc: "A starter app for Next.js, featuring a flexible voice AI frontend"
+  url: "https://github.com/livekit-examples/agent-starter-react"
+  image: "https://raw.githubusercontent.com/livekit-examples/agent-starter-react/refs/heads/main/.github/assets/template-graphic.svg"
+  media:
+    thumbnail:
+      light: "https://raw.githubusercontent.com/livekit-examples/agent-starter-react/refs/heads/main/.github/assets/template-light.webp"
+      dark: "https://raw.githubusercontent.com/livekit-examples/agent-starter-react/refs/heads/main/.github/assets/template-dark.webp"
+    hero:
+      light: "https://raw.githubusercontent.com/livekit-examples/agent-starter-react/refs/heads/main/.github/assets/screenshot-light.webp"
+      dark: "https://raw.githubusercontent.com/livekit-examples/agent-starter-react/refs/heads/main/.github/assets/screenshot-dark.webp"
+  created_at: "2024-09-11T00:00:00Z"
+  updated_at: "2025-07-18T00:00:00Z"
+  requires: ["agent-starter-python"]
+  is_enabled: false
+  is_sandbox: true
+  category: "agent-starter-frontend"
+  tags:
+    - "agents"
+    - "voice"
+  attrs:
+    Application: "VoiceAI, Agents"
+    Type: "Frontend"
+    Tools: "Next.js, TypeScript"
+    License: "Apache-2.0"
+  inputs:
+    companyName:
+      type: string
+      description: "Company or project name"
+      default: "LiveKit"
+    pageTitle:
+      type: string
+      description: "Page title for the browser bar"
+      default: "LiveKit Voice Agent"
+    pageDescription:
+      type: string
+      description: "Page description for SEO"
+      default: "A voice agent built with LiveKit"
+    supportsChatInput:
+      type: boolean
+      description: "Allow the user to type messages to the agent"
+      default: true
+    supportsVideoInput:
+      type: boolean
+      description: "Allow the user to share their camera with the agent"
+      default: true
+    supportsScreenShare:
+      type: boolean
+      description: "Allow the user to share their screen with the agent"
+      default: true
+    isPreConnectBufferEnabled:
+      type: boolean
+      description: "Speed up apparent connection time by buffering local audio for the agent"
+      default: true
+    logo:
+      type: string
+      description: "Optional logo image - URL or data URI (light mode)"
+    accent:
+      type: string
+      description: "Accent color for the app - hex or rgb (light mode)"
+      default: "#002cf2"
+    logoDark:
+      type: string
+      description: "Optional logo image - URL or data URI (dark mode)"
+    accentDark:
+      type: string
+      description: "Accent color for the app - hex or rgb (dark mode)"
+      default: "#1fd5f9"
+    startButtonText:
+      type: string
+      description: "Connection button label text"
+      default: "Start call"
+
 - name: "agent-starter-android"
   display_name: "Android Voice Agent"
   desc: "A starter project for Android, featuring a flexible voice AI frontend"
