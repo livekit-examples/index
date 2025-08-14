@@ -198,7 +198,7 @@
   updated_at: "2025-07-18T00:00:00Z"
   requires: ["agent-starter-python", "token-server"]
   is_enabled: true
-  is_sandbox: true
+  is_sandbox: false
   category: "agent-starter-frontend"
   tags:
     - "nextjs"
