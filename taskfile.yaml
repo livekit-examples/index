@@ -80,3 +80,12 @@ tasks:
       - echo '{{ indent .INDENT "lk agent create" }}'
       - echo ''
 
+  help_open_sandbox:
+    status:
+      - test -z "$LIVEKIT_SANDBOX_ID"
+    cmds:
+      - echo 'To chat with your running agent, visit:'
+      - echo ''
+      - echo '{{ indent .INDENT "https://" }}{{ .LIVEKIT_SANDBOX_ID }}.sandbox.livekit.io'
+      - echo ''
+
