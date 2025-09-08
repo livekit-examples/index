@@ -1,3 +1,6 @@
+# TODO: support template aliases in the registry
+
+# NOTE: keep in sync with legacy name `python-voice-assistant`
 - name: "agent-starter-python"
   display_name: "Python Voice Agent"
   desc: "A starter project for Python, featuring a simple voice agent implementation"
@@ -6,6 +9,28 @@
   updated_at: "2025-07-18T00:00:00Z"
   requires: ["agent-starter-react", "agent-starter-android", "agent-starter-swift", "agent-starter-flutter", "agent-starter-react-native", "agent-starter-embed"]
   is_enabled: true
+  is_sandbox: false
+  category: "agent-starter-backend"
+  tags:
+    - "python"
+    - "agents"
+    - "voice"
+  attrs:
+    Application: "VoiceAI, Agents"
+    Type: "Agent"
+    Tools: "Python >=3.9"
+    License: "Apache-2.0"
+
+# NOTE: deprecated in favor of `agent-starter-python`
+- name: "python-voice-assistant"
+  display_name: "Python Voice Agent"
+  desc: "A starter project for Python, featuring a simple voice agent implementation"
+  url: "https://github.com/livekit-examples/agent-starter-python"
+  created_at: "2025-07-18T00:00:00Z"
+  updated_at: "2025-07-18T00:00:00Z"
+  requires: ["agent-starter-react", "agent-starter-android", "agent-starter-swift", "agent-starter-flutter", "agent-starter-react-native", "agent-starter-embed"]
+  is_enabled: true
+  is_hidden: true
   is_sandbox: false
   category: "agent-starter-backend"
   tags:
@@ -38,6 +63,7 @@
     Tools: "Python >=3.9"
     License: "Apache-2.0"
 
+# NOTE: keep in sync with legacy name `agent-starter-android`
 - name: "agent-starter-react"
   display_name: "Web Voice Agent"
   desc: "A starter app for Next.js, featuring a flexible voice AI frontend"
@@ -115,6 +141,36 @@
       type: string
       description: "Set agent name to enable explicit dispatch"
 
+# NOTE: deprecated in favor of `agent-starter-react`
+- name: "voice-assistant-frontend"
+  display_name: "Web Voice Agent"
+  desc: "A starter app for Next.js, featuring a flexible voice AI frontend"
+  url: "https://github.com/livekit-examples/agent-starter-react"
+  image: "https://raw.githubusercontent.com/livekit-examples/agent-starter-react/refs/heads/main/.github/assets/template-graphic.svg"
+  media:
+    thumbnail:
+      light: "https://raw.githubusercontent.com/livekit-examples/agent-starter-react/refs/heads/main/.github/assets/template-light.webp"
+      dark: "https://raw.githubusercontent.com/livekit-examples/agent-starter-react/refs/heads/main/.github/assets/template-dark.webp"
+    hero:
+      light: "https://raw.githubusercontent.com/livekit-examples/agent-starter-react/refs/heads/main/.github/assets/screenshot-light.webp"
+      dark: "https://raw.githubusercontent.com/livekit-examples/agent-starter-react/refs/heads/main/.github/assets/screenshot-dark.webp"
+  created_at: "2024-09-11T00:00:00Z"
+  updated_at: "2025-07-18T00:00:00Z"
+  requires: ["agent-starter-python"]
+  is_enabled: true
+  is_sandbox: false
+  is_hidden: true
+  category: "agent-starter-frontend"
+  tags:
+    - "agents"
+    - "voice"
+  attrs:
+    Application: "VoiceAI, Agents"
+    Type: "Frontend"
+    Tools: "Next.js, TypeScript"
+    License: "Apache-2.0"
+
+# NOTE: keep in sync with legacy name `agent-starter-android`
 - name: "agent-starter-android"
   display_name: "Android Voice Agent"
   desc: "A starter project for Android, featuring a flexible voice AI frontend"
@@ -135,6 +191,29 @@
     Tools: "Android, Kotlin, Jetpack Compose"
     License: "Apache-2.0"
 
+# NOTE: deprecated in favor of `agent-starter-android`
+- name: "android-voice-assistant"
+  display_name: "Android Voice Agent"
+  desc: "A starter project for Android, featuring a flexible voice AI frontend"
+  url: "https://github.com/livekit-examples/agent-starter-android"
+  created_at: "2024-09-12T00:00:00Z"
+  updated_at: "2025-07-18T00:00:00Z"
+  requires: ["agent-starter-python", "token-server"]
+  is_enabled: true
+  is_hidden: true
+  is_sandbox: false
+  category: "agent-starter-frontend"
+  tags:
+    - "android"
+    - "kotlin"
+    - "voice"
+  attrs:
+    Application: "VoiceAI, Agents"
+    Type: "Mobile app"
+    Tools: "Android, Kotlin, Jetpack Compose"
+    License: "Apache-2.0"
+
+# NOTE: keep in sync with legacy name `swift`
 - name: "agent-starter-swift"
   display_name: "Swift Voice Agent"
   desc: "A starter project for Swift, featuring a flexible voice AI frontend"
@@ -143,6 +222,27 @@
   updated_at: "2025-07-18T00:00:00Z"
   requires: ["agent-starter-python", "token-server"]
   is_enabled: true
+  is_sandbox: false
+  category: "agent-starter-frontend"
+  tags:
+    - "swift"
+    - "voice"
+  attrs:
+    Application: "VoiceAI, Agents"
+    Type: "Mobile app"
+    Tools: "Xcode, Swift, SwiftUI"
+    License: "Apache-2.0"
+
+# NOTE: deprecated in favor of `agent-starter-swift`
+- name: "swift"
+  display_name: "Swift Voice Agent"
+  desc: "A starter project for Swift, featuring a flexible voice AI frontend"
+  url: "https://github.com/livekit-examples/agent-starter-swift"
+  created_at: "2024-12-20T00:00:00Z"
+  updated_at: "2025-07-18T00:00:00Z"
+  requires: ["agent-starter-python", "token-server"]
+  is_enabled: true
+  is_hidden: true
   is_sandbox: false
   category: "agent-starter-frontend"
   tags:
@@ -362,7 +462,30 @@
     Tools: "Python >=3.9"
     License: "Apache-2.0"
 
+# NOTE: keep in sync with legacy name `multimodal-agent`
 - name: "multimodal-agent-python"
+  display_name: "Python multimodal agent"
+  desc: "A voice assistant using S2S and multimodal capabilities"
+  url: "https://github.com/livekit-examples/multimodal-agent-python"
+  created_at: "2024-09-30T00:00:00Z"
+  requires: ["agent-starter-react", "agent-starter-swift", "agent-starter-android", "agent-starter-flutter", "agent-starter-react-native", "agent-starter-embed"]
+  is_enabled: true
+  is_sandbox: false
+  is_hidden: true
+  category: "voice-assistant"
+  tags:
+    - "python"
+    - "agents"
+    - "voice"
+    - "s2s"
+  attrs:
+    Application: "VoiceAI, Agents"
+    Type: "Agent"
+    Tools: "Python >=3.9"
+    License: "Apache-2.0"
+
+# NOTE: deprecated in favor of `multimodal-agent-python`
+- name: "multimodal-agent"
   display_name: "Python multimodal agent"
   desc: "A voice assistant using S2S and multimodal capabilities"
   url: "https://github.com/livekit-examples/multimodal-agent-python"
