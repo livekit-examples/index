@@ -250,9 +250,47 @@
     Tools: "Next.js, TypeScript, HTML, CSS"
     License: "Apache-2.0"
   inputs:
+    companyName:
+      type: string
+      description: "Company or project name"
+      default: "LiveKit"
+    supportsChatInput:
+      type: boolean
+      description: "Allow the user to type messages to the agent"
+      default: true
+    supportsVideoInput:
+      type: boolean
+      description: "Allow the user to share their camera with the agent"
+      default: true
+    supportsScreenShare:
+      type: boolean
+      description: "Allow the user to share their screen with the agent"
+      default: true
+    isPreConnectBufferEnabled:
+      type: boolean
+      description: "Speed up apparent connection time by buffering local audio for the agent"
+      default: true
+    logo:
+      type: string
+      description: "Optional logo image - URL or data URI (light mode)"
+    accent:
+      type: string
+      description: "Accent color for the widget - hex or rgb (light mode)"
+      default: "#1fd5f9"
+    logoDark:
+      type: string
+      description: "Optional logo image - URL or data URI (dark mode)"
+    accentDark:
+      type: string
+      description: "Accent color for the widget - hex or rgb (dark mode)"
+      default: "#002cf2"
+    startButtonText:
+      type: string
+      description: "Connection button label text"
+      default: "Chat with Agent"
     agentName:
       type: string
-      description: "Optional - dispatch only agents with this name"
+      description: "Set agent name to enable explicit dispatch"
 
 # NOTE: keep url in sync with legacy template `agent-starter-android`
 - name: "agent-starter-android"
