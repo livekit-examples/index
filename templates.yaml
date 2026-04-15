@@ -276,14 +276,14 @@
     accent:
       type: string
       description: "Accent color for the widget - hex or rgb (light mode)"
-      default: "#1fd5f9"
+      default: "#002cf2"
     logoDark:
       type: string
       description: "Optional logo image - URL or data URI (dark mode)"
     accentDark:
       type: string
       description: "Accent color for the widget - hex or rgb (dark mode)"
-      default: "#002cf2"
+      default: "#1fd5f9"
     startButtonText:
       type: string
       description: "Connection button label text"
