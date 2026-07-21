@@ -95,6 +95,27 @@
     Tools: "Python >=3.9"
     License: "Apache-2.0"
 
+- name: "overshoot-vision-agent"
+  display_name: "Real-time vision agent with Overshoot"
+  desc: "An agent that watches camera, screen-share, or RTSP video and streams structured JSON observations using Overshoot's real-time VLM inference"
+  url: "https://github.com/Overshoot-ai/livekit-vision-agent"
+  docs: "https://docs.overshoot.ai/integrations/livekit"
+  created_at: "2026-07-20T00:00:00Z"
+  updated_at: "2026-07-20T00:00:00Z"
+  is_enabled: false
+  is_sandbox: false
+  category: "agent-starter-backend"
+  tags:
+    - "python"
+    - "agents"
+    - "vision"
+    - "video"
+  attrs:
+    Application: "Vision, Agents"
+    Type: "Agent"
+    Tools: "Python >=3.10"
+    License: "Apache-2.0"
+
 ## NODE AGENTS
 
 # NOTE: keep url in sync with legacy template `voice-pipeline-agent-node`
