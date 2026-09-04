@@ -158,7 +158,7 @@
   updated_at: "2025-07-18T00:00:00Z"
   requires: ["agent-starter-python"]
   is_enabled: true
-  is_sandbox: true
+  is_sandbox: false
   category: "agent-starter-frontend"
   tags:
     - "agents"
@@ -230,6 +230,7 @@
   is_sandbox: false
   is_hidden: true
 
+# XXX: deprecated, no longer maintained
 - name: "agent-starter-embed"
   display_name: "Web Embed Voice Agent"
   desc: "A starter project for a flexible voice AI that can be embedded in any website"
@@ -237,8 +238,9 @@
   created_at: "2025-07-18T00:00:00Z"
   updated_at: "2025-07-18T00:00:00Z"
   requires: ["agent-starter-python", "token-server"]
-  is_enabled: true
+  is_enabled: false
   is_sandbox: false
+  is_hidden: true
   category: "agent-starter-frontend"
   tags:
     - "nextjs"
@@ -482,4 +484,3 @@
     Type: "Backend"
     Tools: "Go"
     License: "Apache-2.0"
-
